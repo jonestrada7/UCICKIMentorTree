@@ -46,7 +46,7 @@ var MentorTree = {
        text: { name: "UCI CKI LINES" },
        children: [
             {	
-                text: { name: "SLEEPY LINE" },
+                text: { name: "Sleepy line" },
                 children: [
                     {
                     text: { name: "Serjohn" },
