@@ -53,33 +53,33 @@ var MentorTree = {
                 children: [
                     {
                     text: { name: "Serjohn" },
-                    image: file + "/img/Diyen.jpg",
+                    image: file + "/img/serjohn.jpg",
                     children: [
                         {
                         text: { name: "Vince" },
-                        image: "https://i.imgur.com/vmL3WQA.jpg",
+                        image: file + "/img/vince.jpg",
                         children: [
                             {
                             text: { name: "Kyle" },
-                            image: "https://i.imgur.com/vmL3WQA.jpg",
+                            image: file + "/img/kylesj.jpg",
                             children: [
                                 {
                                 text: { name: "Diane" },
-                                image: "https://i.imgur.com/vmL3WQA.jpg",
+                                image: file + "/img/diane.jpg",
                                 },
                                 {
                                 text: { name: "Natashza" },
-                                image: "https://i.imgur.com/vmL3WQA.jpg"
+                                image: file + "/img/natashza.jpg"
                                 },
                                 {
                                 text: { name: "Emily" },
-                                image: "https://i.imgur.com/vmL3WQA.jpg"
+                                image: file + "/img/emily.jpg"
                                 }
                             ]
                             },
                             {
                             text: { name: "Rin" },
-                            image: "https://i.imgur.com/vmL3WQA.jpg"
+                            image: file + "/img/rin.jpg"
                             }
                         ]
                         }
