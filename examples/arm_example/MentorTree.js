@@ -147,15 +147,15 @@ var MentorTree = {
             
             // WUJU LINE
             
-            {
-                text: { name: "WUJU LINEE" },
-                children: [
-                    {
-                        text: { name: "Noah" },
-                        image: file + "/img/ML1.jpg",                            
-                    }
-                ]
-            }
+            // {
+            //     text: { name: "WUJU LINEE" },
+            //     children: [
+            //         {
+            //             text: { name: "Noah" },
+            //             image: file + "/img/ML1.jpg",                            
+            //         }
+            //     ]
+            // }
             
             
        ]
