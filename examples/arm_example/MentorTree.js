@@ -49,7 +49,7 @@ var MentorTree = {
             // SLEEPY LINE
             
             {	                
-                text: { name: "Sleepy line" },
+                text: { name: "SLEEPY LINE" },
                 children: [
                     {
                     text: { name: "Serjohn" },

@@ -1,4 +1,4 @@
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+.node-name { 
     margin:0; 
     padding:0; 
     font-family: 'Raleway';
@@ -17,8 +17,8 @@ abbr,acronym { border:0; }
 
 body { background: #fff; }
 /* optional Container STYLES */
-.chart { height: 780px; margin: 5px; width: 1600px; }
-.Treant > .node { padding: 5px; border: 4px solid #33FF99; border-radius: 35px; }
+.chart { height: 1200px; margin: 5px; width: 2000px; }
+.Treant > .node { padding: 8px; border: 10px solid #33FF99; border-radius: 35px; }
 .Treant > .node img { width: 120px; height: 120px; border-radius: 60px;}
 
 .Treant .collapse-switch { width: 100%; height: 100%; border: none; }
