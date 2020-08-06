@@ -1108,8 +1108,14 @@
 				// TEXT
 				if(this.text) {
 					for(var key in this.text) {
+						// console.log(this.text);
 						if(TreeNode.prototype.CONFIG.textClass[key]) {
+							// Determine if the text is a link or not
 							var text = document.createElement(this.text[key].href ? 'a' : 'p');
+							text.className = "treant_p";
+							
+							
+							console.log(text);
 
 							// meke an <a> element if required
 							if (this.text[key].href) {
