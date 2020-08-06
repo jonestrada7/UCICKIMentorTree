@@ -29,6 +29,7 @@ var MentorTree = {
         },
         
         node: {
+            HTMLclass: "mentorline",
             collapsable: true
         },
 

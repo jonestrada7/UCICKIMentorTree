@@ -4,7 +4,14 @@
     font-family: 'Raleway';
     text-align: center;
 }
-table { border-collapse:collapse; border-spacing:0; }
+
+.mentorline {
+    padding: 8px; 
+    border: 10px solid #33FF99; 
+    border-radius: 35px; 
+}
+
+/* table { border-collapse:collapse; border-spacing:0; }
 fieldset,img { border:0; }
 address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:normal;}
 caption,th { 
@@ -13,12 +20,11 @@ caption,th {
 
 h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:normal; }
 q:before,q:after { content:''; }
-abbr,acronym { border:0; }
+abbr,acronym { border:0; } */
 
 body { background: #fff; }
 /* optional Container STYLES */
 .chart { height: 1200px; margin: 5px; width: 2000px; }
-.Treant > .node { padding: 8px; border: 10px solid #33FF99; border-radius: 35px; }
 .Treant > .node img { width: 120px; height: 120px; border-radius: 60px;}
 
 .Treant .collapse-switch { width: 100%; height: 100%; border: none; }
