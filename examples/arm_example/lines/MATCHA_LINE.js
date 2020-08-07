@@ -1,4 +1,4 @@
-// let file = "/page/treant/treant-js-master/examples/arm_example";
+// var file = "/page/treant/treant-js-master/examples/arm_example";
 var file = "";      // FIXME: Be sure to change this to the above path when using the actual website
 var htmlclass = "matcha-line";
 

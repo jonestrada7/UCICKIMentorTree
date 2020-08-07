@@ -11,16 +11,37 @@
     border-radius: 35px; 
 }
 
+.abbabg-line {
+    border: 10px solid #1692a8;
+}
+
+.bottle-flip-line {
+    border: 10px solid #6ecfe0;
+}
+
 .f-boy-line {
     border: 10px solid #0c4f15; 
+}
+
+.indecisive-line {
 }
 
 .matcha-line {
     border: 10px solid #33ff99;
 }
 
+.ninja-line {
+}
+
 .sleepy-line {
     border: 10px solid #f5eacb;
+}
+
+.smasher-line {
+}
+
+.wuju-line {
+    border: 10px solid #6a1b8f;
 }
 
 /* table { border-collapse:collapse; border-spacing:0; }

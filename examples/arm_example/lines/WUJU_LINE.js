@@ -1,56 +1,23 @@
-var WUJU_LINE = {
-        chart: {
-            container: "#OrganiseChart-simple",
-            
-            rootOrientation: "NORTH",
-            
-            levelSeparation: 50,
-            
-            siblingSeparation: 100,
+// var file = "/page/treant/treant-js-master/examples/arm_example";
+var file = "";      // FIXME: Be sure to change this to the above path when using the actual website
+var htmlclass = "wuju-line";
 
-            animateOnInit: true,
-            
-            scrollbar: "fancy",            
-
-            connectors: {
-                type: "bCurve",
-                style: {
-                    "stroke": "#5BD5EE",
-                    "stroke-width": 2,
-                    "stroke-linecap": "butt",
-                    "stroke-width": 5
-                }
+var WUJU_LINE = [
+    {
+        text: { name: "Andre" },
+        image: file + "/img/andre.jpg",
+        HTMLclass: htmlclass,
+        children: [
+            {
+                text: { name: "Ngan" },
+                image: file + "/img/ngan.jpg",
+                HTMLclass: htmlclass
             },
-            
-            node: {
-                collapsable: true
-            },
-
-            animation: {
-                nodeAnimation: "easeOutBounce",
-                nodeSpeed: 700,
-                connectorsAnimation: "bounce",
-                connectorsSpeed: 700
+            {
+                text: { name: "Andy" },
+                image: file + "/img/andy.jpg",
+                HTMLclass: htmlclass
             }
-        },
-
-        nodeStructure: {
-            text: { name: "WUJU LINE" },
-            children: [
-                {
-                    text: { name: "Andre" },
-                    image: "img/andre.jpg",
-                    children: [
-                        {
-                            text: { name: "Ngan" },
-                            image: "img/ngan.jpg",
-                        },
-                        {
-                            text: { name: "Andy" },
-                            image: "img/andy.jpg"
-                        }
-                    ]
-                }
-            ]
-        }
-    };
+        ]
+    }
+]
