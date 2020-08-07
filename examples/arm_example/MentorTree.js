@@ -49,7 +49,7 @@ var MentorTree = {
                 "stroke-width": 5
             }
         },
-        HTMLclass: "line-name",
+        HTMLclass: "line-header",
         children: [
             {
 
@@ -67,17 +67,17 @@ var MentorTree = {
             },
             
             {
+                text: { name: "CINEMA LINE" },
+                children: CINEMA_LINE,
+                collapsed: true,
+                HTMLclass: "cinema-line line-name"
+            },
+            
+            {
                 text: { name: "F BOY LINE" },
                 children: F_BOY_LINE,
                 collapsed: true,
                 HTMLclass: "f-boy-line line-name"
-            },
-            
-            {
-                text: { name: "CINEMA LINE" },
-                children: CINEMA_LINE,
-                collapsed: true,
-                HTMLclass: "cinema-line"
             },
 
             {

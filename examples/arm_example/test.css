@@ -12,6 +12,12 @@
     box-sizing: content-box;        /* Override bootstrap border-box */
 }
 
+.line-header {
+    padding-top: 30px;
+    width: 200px;
+    height: 50px;
+}
+
 .line-name {
     padding-top: 20px;
     height: 35px;
@@ -26,7 +32,7 @@
 }
 
 .cinema-line {
-    border: 10px solid #830707
+    border: 10px solid #830707;
 }
 
 .f-boy-line {
