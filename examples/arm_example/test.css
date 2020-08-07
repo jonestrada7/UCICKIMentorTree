@@ -1,7 +1,7 @@
 .node-name { 
     margin:0; 
     padding:0; 
-    font-family: 'Raleway';
+    font-family: 'Comic Sans MS';
     text-align: center;
 }
 
@@ -38,6 +38,14 @@
 }
 
 .smasher-line {
+    border: 10px solid #b00b0b
+}
+
+.virus-line {
+    border: 10px solid #ed0c97
+}
+
+.weenie-line {
 }
 
 .wuju-line {
