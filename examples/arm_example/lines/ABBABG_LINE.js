@@ -5,17 +5,17 @@ var htmlclass = "abbabg-line";
 var ABBABG_LINE = [
     {
         text: { name: "James" },
-        image: "img/jamesmolamphy.jpg",
+        image: file + "/img/jamesmolamphy.jpg",
         HTMLclass: htmlclass,
         children: [
             {
                 text: { name: "Kenneth Lorn Seng" },
-                image: "img/kennethlornseng.jpg",
+                image: file + "/img/kennethlornseng.jpg",
                 HTMLclass: htmlclass
             },
             {
                 text: { name: "Terry" },
-                image: "img/terrynguyen.jpg",
+                image: file + "/img/terrynguyen.jpg",
                 HTMLclass: htmlclass
             }
         ]
