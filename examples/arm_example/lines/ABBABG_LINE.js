@@ -1,7 +1,7 @@
-// let file = "/page/treant/treant-js-master/examples/arm_example";
-let file = "";      // FIXME: Be sure to change this to the above path when using the actual website
+// var file = "/page/treant/treant-js-master/examples/arm_example";
+var file = "";      // FIXME: Be sure to change this to the above path when using the actual website
 
-var F_BOY_LINE = {
+var ABBABG_LINE = {
     chart: {
         container: "#OrganiseChart-simple",
         
@@ -40,16 +40,22 @@ var F_BOY_LINE = {
         }
     },
     
+    // ABB/ABG Line
+
     nodeStructure: {
-        text: { name: "F BOY LINE" },
+        text: { name: "ABB/ABG LINE" },
         children: [
             {
-                text: { name: "Christian" },
-                image: file + "/img/christian.jpg",
+                text: { name: "James" },
+                image: "img/jamesmolamphy.jpg",
                 children: [
                     {
-                        text: { name: "Caleb" },
-                        image: file + "/img/caleb.jpg"
+                        text: { name: "Kenneth Lorn Seng" },
+                        image: "img/kennethlornseng.jpg",
+                    },
+                    {
+                        text: { name: "Terry" },
+                        image: "img/terrynguyen.jpg"
                     }
                 ]
             }

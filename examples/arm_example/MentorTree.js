@@ -1,5 +1,5 @@
-// let file = "/page/treant/treant-js-master/examples/arm_example";
-let file = "";      // FIXME: Be sure to change this to the above path when using the actual website
+// var file = "/page/treant/treant-js-master/examples/arm_example";
+var file = "";      // FIXME: Be sure to change this to the above path when using the actual website
 
 var MentorTree = {
     chart: {
@@ -15,7 +15,7 @@ var MentorTree = {
 
         animateOnInit: true,
         
-        scrollbar: "None",            
+        scrollbar: "native",            
 
     
         connectors: {
@@ -46,119 +46,26 @@ var MentorTree = {
     nodeStructure: {
        text: { name: "UCI CKI LINES" },
        children: [
-      
-            // SLEEPY LINE
-            
-            {	                
-                text: { name: "SLEEPY LINE" },
-                children: [
-                    {
-                    text: { name: "Serjohn" },
-                    image: file + "/img/serjohn.jpg",
-                    children: [
-                        {
-                        text: { name: "Vince" },
-                        image: file + "/img/vince.jpg",
-                        children: [
-                            {
-                            text: { name: "Kyle" },
-                            image: file + "/img/kylesj.jpg",
-                            children: [
-                                {
-                                text: { name: "Diane" },
-                                image: file + "/img/diane.jpg",
-                                },
-                                {
-                                text: { name: "Natashza" },
-                                image: file + "/img/natashza.jpg"
-                                },
-                                {
-                                text: { name: "Emily" },
-                                image: file + "/img/emily.jpg"
-                                }
-                            ]
-                            },
-                            {
-                            text: { name: "Rin" },
-                            image: file + "/img/rin.jpg"
-                            }
-                        ]
-                        }
-                    ]
-                    }
-                ]
+            {
+                text: { name: "F BOY LINE" },
+                children: F_BOY_LINE,
+                collapsed: true,
+                HTMLclass: "f-boy-line"
             },
             
-            // MATCHA LINE
-            
-	        {
+            {
                 text: { name: "MATCHA LINE" },
-                children: [
-                    {
-                        text: { name: "Noah" },
-                        image: file + "/img/ML1.jpg",
-                        children: [
-                            {
-                                text: { name: "Sydney" },
-                                image: file + "/img/ML2.jpg",
-                                children: [
-                                    {
-                                        text: { name: "Travis" },
-                                        image: file + "/img/ML5.jpg",
-                                    },
-                                    {
-                                        text: { name: "Elton" },
-                                        image: file + "/img/ML6.jpg",
-                                    }
-                                ]
-                            },
-                            {
-                                text: { name: "Ruhiyah" },
-                                image: file + "/img/ML4.jpg"
-                            },
-                            {
-                                text: { name: "Kayla" },
-                                image: file + "/img/ML3.jpg",
-                                children: [
-                                    {
-                                        text: { name: "Justin" },
-                                        image: file + "/img/ML7.jpg",
-                                    },
-                                    {
-                                        text: { name: "Kit" },
-                                        image: file + "/img/ML10.jpg",
-                                        children: [
-                                            {
-                                                text: { name: "Tin" },
-                                                image: file + "/img/ML8.jpg"
-                                            },
-                                            {
-                                                text: { name: "Nicole" },
-                                                image: file + "/img/ML9.jpg"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                            
-                        ]
-                    }
-                ]
+                children: MATCHA_LINE,
+                collapsed: true,
+                HTMLclass: "matcha-line"
             },
-            
-            // WUJU LINE
-            
-            // {
-            //     text: { name: "WUJU LINEE" },
-            //     children: [
-            //         {
-            //             text: { name: "Noah" },
-            //             image: file + "/img/ML1.jpg",                            
-            //         }
-            //     ]
-            // }
-            
-            
-       ]
+           
+            {               
+                text: { name: "SLEEPY LINE" },
+                children: SLEEPY_LINE,
+                collapsed: true,
+                HTMLclass: "sleepy-line"
+            }
+        ]        
     }
 };

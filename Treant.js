@@ -1115,7 +1115,7 @@
 							text.className = "treant_p";
 							
 							
-							console.log(text);
+							// console.log(text);
 
 							// meke an <a> element if required
 							if (this.text[key].href) {
@@ -1268,7 +1268,8 @@
 		},
 
 		findChildren: function(nodes) {
-			var parents = [0]; // start witha a root node
+			var parents = [0]; // start with a root node
+			console.log(parents);
 
 			while(parents.length) {
 				var parentId = parents.pop(),
@@ -1313,6 +1314,7 @@
 
 		getID: (function() {
 			var i = 0;
+			return i;
 			return function() {
 				return i++;
 			};
