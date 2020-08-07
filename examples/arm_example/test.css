@@ -25,6 +25,10 @@
     border: 10px solid #6ecfe0;
 }
 
+.cinema-line {
+    border: 10px solid #830707
+}
+
 .f-boy-line {
     border: 10px solid #0c4f15; 
 }
@@ -44,7 +48,7 @@
 }
 
 .smasher-line {
-    border: 10px solid #b00b0b
+    border: 10px solid #f53232
 }
 
 .virus-line {

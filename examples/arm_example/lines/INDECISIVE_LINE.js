@@ -2,8 +2,8 @@ var htmlclass = "indecisive-line";
 
 var INDECISIVE_LINE = [
     {
-        text: { name: "???" },
-        image: treePath + "/img/???.jpg",
+        text: { name: "Stacey" },
+        image: treePath + "/img/stacey.jpg",
         HTMLclass: htmlclass,
         children: [
             {
