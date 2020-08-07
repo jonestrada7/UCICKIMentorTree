@@ -1,24 +1,164 @@
+
 <!DOCTYPE html>
-<html>
-    <head>
-    <meta charset="utf-8"/>
-        <title>Chart Example</title>
-        <!-- stylesheets -->
-        <link rel="stylesheet" href="../../Treant.css">
-        <link rel="stylesheet" href="test.css">
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="uci, circle k international, service organization, volunteer, non-profit" />
+<meta name="description" content="" />
+<meta property="og:image" content="http://www.ucicirclek.com/public/assets/img/petey.png" />
+<meta property="fb:pages" content="544854988933598" />
+<title>UCI Circle K -  Mentor/Mentee Program -  Creating Legends Through Service</title>
+<script src="http://www.ucicirclek.com/public/assets2/js/jquery.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<script src="http://www.ucicirclek.com/public/assets2/js/numscroller-1.0.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<script src="http://www.ucicirclek.com/public/assets2/js/popper.min.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<script src="http://www.ucicirclek.com/public/assets2/js/bootstrap.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<link href="http://www.ucicirclek.com/public/assets2/css/bootstrap.css" rel="stylesheet">
+<link href="http://www.ucicirclek.com/public/assets2/css/font-awesome.css" rel="stylesheet">
+<link href="http://www.ucicirclek.com/public/css/style_website.css" rel="stylesheet">
+<link href="http://www.ucicirclek.com/public/css/style_theme.css" rel="stylesheet">
+<script src="http://www.ucicirclek.com/public/assets2/js/snowflakes/snowfall.js" type="8ad38a1741779e4b39285fca-text/javascript" charset="utf-8"></script>
+<link rel="apple-touch-icon" href="http://www.ucicirclek.com/public/assets/img/petey.png">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    #logo {
+        height: 23px;
+        width: 23px;
+        margin-top: -3px;
+    }
+    @media (min-width:979px) {
+        .dropdown-menu {
+            display: none;
+            opacity: 1;
+            visibility: visible;
+            transition: opacity 500ms ease, visibility 500ms ease;
+        }
+    }
+
+    @media (min-width: 979px) {
+        body { padding-top: 0px }
+        #user-on { padding-top: 0px }
+        #nav-pages { padding-top: 0px }
+      }
+
+    .dropdown-menu {
+        display: none !important;
+    }
+    
+    .show .dropdown-menu {
+        display: block !important;
+    }
+
+    .back{
+        margin-bottom: 0;
+    color: #000 !important;
+    background: #fff url("http://www.ucicirclek.com/public/css/greekmasthead.png") repeat-x bottom;
+    background-size: contain;
+    padding: 0% 2% 2% 2%;
+    border: 0;
+    border-radius: 0;
+    font-size: 14px !important;
+    width: 100%;
+    height: 80%;
+    }
+    </style>
 </head>
 <body>
-    <div class="chart" id="OrganiseChart-simple"> 
-    </div>
-    
-    <!-- javascript -->
-    <script src="../../vendor/raphael.js"></script>
-    <script src="../../Treant.js"></script>
-    <script src="simple.js"></script>
-    
-    <script>
-        new Treant( simple_chart_config );
-    </script>
+<div class="" style="margin:0;padding:0;">
+<nav class="navbar fixed-top navbar-light bg-light" style="margin:0;padding:2px 0 0 0;">
+<div class="back row navbar-collapse mr-auto" id="navbarSupportedContent">
+<div>
+<a href="http://www.ucicirclek.com/main/" class="brand float-left"><img src="http://www.ucicirclek.com/public/css/cki_logo.png" id="logo" style="height: 35px; width: 130px; margin: 0px 0px 0px 20px; padding:8px 8px 4px 8px;"></a>
+<a href="http://www.cnhcirclek.org/" style=""><img src="http://www.ucicirclek.com/public/css/cnh_emblem.png" style="height: 40px; width: 50px; margin: 0px 20px 0 8px; padding:6px 8px 4px 8px;"></a>
+</div>
+<div class="row justify-content-end"><li class="nav-item" style="list-style-type:none; white-space: nowrap;"><a class="nav-link" href="http://www.ucicirclek.com/main/">Home</a></li><li class="nav-item dropdown" style="white-space: nowrap;">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="http://www.ucicirclek.com/page/about/">About Circle K</a><a class="dropdown-item" href="http://www.ucicirclek.com/page/board_members/">Board Members</a><a class="dropdown-item" href="http://www.ucicirclek.com/page/club_committees/">Club Committees</a><a class="dropdown-item" href="http://www.ucicirclek.com/page/families/">Families</a><a class="dropdown-item" href="http://www.ucicirclek.com/page/family_heads/">Family Heads</a><a class="dropdown-item" href="http://www.ucicirclek.com/page/history/">History</a><a class="dropdown-item" href="http://www.ucicirclek.com/page/mentor_mentee_program/">Mentor/Mentee Program</a><a class="dropdown-item" href="http://www.ucicirclek.com/page/tip/">TIP</a></div>
+</li><li class="nav-item dropdown" style="white-space: nowrap;">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown"><div style="font-weight:bold;" class=""><b> &nbsp;Tenets</b></div><a class="dropdown-item" href="http://www.ucicirclek.com/page/service/">Service</a><a class="dropdown-item" href="http://www.ucicirclek.com/page/leadership/">Leadership</a><a class="dropdown-item" href="http://www.ucicirclek.com/page/fellowship/">Fellowship</a><div style="font-weight:bold;" class=""><b> &nbsp;Fundraising</b></div><a class="dropdown-item" href="http://www.ucicirclek.com/page/fundraising/">Fundraising</a><div style="font-weight:bold;" class=""><b> &nbsp;District & Divisional</b></div><a class="dropdown-item" href="http://www.ucicirclek.com/page/ckisouth/">CKI South</a><a class="dropdown-item" href="http://www.ucicirclek.com/page/ftc/">FTC</a><a class="dropdown-item" href="http://www.ucicirclek.com/page/dcon/">DCON</a></div>
+</li><li class="nav-item" style="list-style-type:none; white-space: nowrap;"><a class="nav-link" href="http://www.ucicirclek.com/calendar/">Calendar</a></li><li class="nav-item dropdown" style="white-space: nowrap;">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Media</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="http://www.ucicirclek.com/page/games_and_stuff/">Games And Stuff</a><a class="dropdown-item" href="http://www.ucicirclek.com/page/photoGallery/">Photo Gallery</a><a class="dropdown-item" href="http://www.ucicirclek.com/page/video_gallery/">Video Gallery</a></div>
+</li><li class="nav-item dropdown" style="white-space: nowrap;">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown"><div style="font-weight:bold;" class=""><b> &nbsp;Membership App</b></div><a class="dropdown-item" href="http://www.ucicirclek.com/application-online/">Online Application</a><a class="dropdown-item" href="https://drive.google.com/a/uci.edu/file/d/1FmnzE-nMNrRmfhXd0mk9SeLtxr-dSvhc/view?">Paper Application</a><div style="font-weight:bold;" class=""><b> &nbsp;Other</b></div><a class="dropdown-item" href="http://www.ucicirclek.com/page/cheers/">Cheers</a><a class="dropdown-item" href="https://drive.google.com/file/d/1W-QcDsDOGerzk6v2-iQAokXlskhqNMMw/view">Club Bylaws</a><a class="dropdown-item" href="http://www.ucicirclek.com/page/leaderboard/">Leaderboard</a><a class="dropdown-item" href="http://www.ucicirclek.com/page/links/">Links</a><a class="dropdown-item" href="http://www.ucicirclek.com/page/mrp/">MRP Requirements</a><a class="dropdown-item" href="http://www.ucicirclek.com/suggestion/">Suggestion Box</a></div>
+</li><li class="nav-item" style="list-style-type:none; white-space: nowrap;"><a class="nav-link" href="http://www.ucicirclek.com/test_main/search/search_page.php">Search</a></li>
+<ul class="nav float-right">
+<li><a href="http://www.ucicirclek.com/register/" style="font-weight:bold;padding:5px;"><i class="icon-plus-sign"></i> Register</a></li>
+<li>
+<a href="http://www.ucicirclek.com/login/" style="font-weight:bold;padding:5px;">
+<i class="icon-info-sign icon-white"></i> Login
+</a>
+</li>
+</ul></div>
+</div>
+<div class="collapse navbar-collapse mr-auto" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+</ul>
+</div>
+</nav>
 
-</body>
+
+</div>
+<div class="row-fluid">
+<div class="span12 offset0">
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Chart Example</title>
+
+<link rel="stylesheet" href="../../Treant.css">
+<link rel="stylesheet" href="test.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="row-fluid">
+<div class="well text-center" id="page-header">
+<h1><strong>Mentor/Mentee Program</strong></h1>
+</div>
+</div>
+<div class="row-fluid">
+<div class="span12">
+<div class="well">
+<div style="padding:20px;">
+<div style="position: relative; padding-bottom: 43%; overflow: hidden; -webkit-overflow-scrolling:touch;" id="Q8P6MLLD9G">
+
+<script src="../../vendor/raphael.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<script src="../../Treant.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<link href="../../vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" type="text/css" />
+<script src="../../vendor/jquery.min.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<script src="../../vendor/jquery.easing.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<script src="../../vendor/jquery.mousewheel.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<script src="../../vendor/perfect-scrollbar/perfect-scrollbar.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<script src="treeconfig.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<div class="chart" id="OrganiseChart-simple">
+<center>
+<script src="lines/ABBABG_LINE.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<script src="lines/BOTTLE_FLIP_LINE.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<script src="lines/F_BOY_LINE.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<script src="lines/INDECISIVE_LINE.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<script src="lines/MATCHA_LINE.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<script src="lines/NINJA_LINE.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<script src="lines/SLEEPY_LINE.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<script src="lines/SMASHER_LINE.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<script src="lines/VIRUS_LINE.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<script src="lines/WUJU_LINE.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<script src="lines/WEENIE_LINE.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<script src="MentorTree.js" type="8ad38a1741779e4b39285fca-text/javascript"></script>
+<script type="8ad38a1741779e4b39285fca-text/javascript">
+                  mentor_tree = new Treant( MentorTree, align_tree );
+              </script>
+</center>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="8ad38a1741779e4b39285fca-|49" defer=""></script></body>
 </html>
+</div>
+</div>

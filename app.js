@@ -20,6 +20,8 @@ app.use(express.static(path.join(__dirname, '/examples/arm_example')));
 // app.use(express.static(path.join(__dirname, '/examples/collapsable')));
 app.use(express.static(path.join(__dirname, '/vendor')));
 
+console.log(path.join(__dirname, '/examples/arm_example'));
+
 app.use("/", router);
 
 const port = 3000;

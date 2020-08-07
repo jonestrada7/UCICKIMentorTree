@@ -4,7 +4,7 @@ var MentorTree = {
         
         rootOrientation: "NORTH",
 
-        nodeAlight: "TOP",
+        // nodeAlign: "TOP",
         
         levelSeparation: 50,
         
@@ -12,11 +12,11 @@ var MentorTree = {
 
         animateOnInit: true,
         
-        scrollbar: "native",            
-
+        scrollbar: "native",
     
+        /* easing formulas: https://dmitrybaranovskiy.github.io/raphael/reference.html#Raphael.easing_formulas */
         connectors: {
-            type: "step",
+            type: "curve",
             style: {
                 "stroke": "#5BD5EE",
                 "stroke-width": 2,
@@ -31,91 +31,102 @@ var MentorTree = {
         },
 
         animation: {
-            nodeAnimation: "easeOutBounce",
+            nodeAnimation: "easeOutBack",        // easeOutBounce
             nodeSpeed: 700,
-            connectorsAnimation: "bounce",
+            connectorsAnimation: "backOut",         // bounce
             connectorsSpeed: 700
         }
     },
 
     nodeStructure: {
        text: { name: "UCI CKI LINES" },
-       children: [
+       connectors: {
+            type: "step",
+            style: {
+                "stroke": "#5BD5EE",
+                "stroke-width": 2,
+                "stroke-linecap": "butt",
+                "stroke-width": 5
+            }
+        },
+        HTMLclass: "line-name",
+        children: [
             {
+
                 text: { name: "ABB/ABG LINE" },
                 children: ABBABG_LINE,
                 collapsed: true,
-                HTMLclass: "abbabg-line"
+                HTMLclass: "abbabg-line line-name"
             },
         
             {
                 text: { name: "BOTTLE FLIP LINE"},
                 children: BOTTLE_FLIP_LINE,
                 collapsed: true,
-                HTMLclass: "bottle-flip-line"
+                HTMLclass: "bottle-flip-line line-name"
             },
             
             {
                 text: { name: "F BOY LINE" },
                 children: F_BOY_LINE,
                 collapsed: true,
-                HTMLclass: "f-boy-line"
+                HTMLclass: "f-boy-line line-name"
             },
             
             {
                 text: { name: "INDECISIVE LINE" },
                 children: INDECISIVE_LINE,
                 collapsed: true,
-                HTMLclass: "indecisive-line"
+                HTMLclass: "indecisive-line line-name"
             },
             
             {
                 text: { name: "MATCHA LINE" },
                 children: MATCHA_LINE,
                 collapsed: true,
-                HTMLclass: "matcha-line"
+                HTMLclass: "matcha-line line-name"
             },
             
             {
                 text: { name: "NINJA LINE" },
                 children: NINJA_LINE,
                 collapsed: true,
-                HTMLclass: "ninja-line"
+                HTMLclass: "ninja-line line-name"
             },
            
-            {               
+            {         
                 text: { name: "SLEEPY LINE" },
                 children: SLEEPY_LINE,
                 collapsed: true,
-                HTMLclass: "sleepy-line"
+                HTMLclass: "sleepy-line line-name"
             },
             
-            {               
+            {   
                 text: { name: "SMASHER LINE" },
                 children: SMASHER_LINE,
                 collapsed: true,
-                HTMLclass: "smasher-line"
+                HTMLclass: "smasher-line line-name"
             },
             
             {
                 text: { name: "VIRUS LINE" },
                 children: VIRUS_LINE,
                 collapsed: true,
-                HTMLclass: "virus-line"
+                HTMLclass: "virus-line line-name"
             },
 
             {
                 text: { name: "WEENIE LINE" },
                 children: WEENIE_LINE,
                 collapsed: true,
-                HTMLclass: "weenie-line"
+                HTMLclass: "weenie-line line-name"
             },
 
-            {   
+            {
                 text: { name: "WUJU LINE" },
                 children: WUJU_LINE,
                 collapsed: true,
-                HTMLclass: "wuju-line" 
+                HTMLclass: "wuju-line line-name" 
             }
         ]        
     }

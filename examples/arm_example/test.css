@@ -8,7 +8,13 @@
 .mentorline {
     padding: 8px;
     border: 10px solid #edc864; 
-    border-radius: 35px; 
+    border-radius: 35px;
+    box-sizing: content-box;        /* Override bootstrap border-box */
+}
+
+.line-name {
+    padding-top: 20px;
+    height: 35px;
 }
 
 .abbabg-line {
@@ -65,9 +71,9 @@ q:before,q:after { content:''; }
 
 body { background: #fff; }
 /* optional Container STYLES */
-.chart { height: 1400px; margin: 5px; width: 2000px; }
+.chart { height: 1400px; margin: 5px; width: 100%; }
 .Treant > .node img { width: 120px; height: 120px; border-radius: 60px;}
 
 .Treant .collapse-switch { width: 100%; height: 100%; border: none; }
-.Treant .node.collapsed { background-color: #99FFFF; }
+.Treant .node.collapsed { background-color: #c9f7c8; }
 .Treant .node.collapsed .collapse-switch { background: none; }
