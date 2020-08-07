@@ -63,6 +63,13 @@ var MentorTree = {
             },
             
             {
+                text: { name: "CINEMA LINE" },
+                children: CINEMA_LINE,
+                collapsed: true,
+                HTMLclass: "cinema-line"
+            },
+
+            {
                 text: { name: "INDECISIVE LINE" },
                 children: INDECISIVE_LINE,
                 collapsed: true,
