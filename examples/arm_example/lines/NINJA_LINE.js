@@ -5,34 +5,34 @@ var htmlclass = "ninja-line";
 var NINJA_LINE = [
     {
         text: { name: "David" },
-        image: "/img/david_c.jpg",
+        image: treePath + "/img/david_c.jpg",
         HTMLclass: htmlclass,
         children: [
             {
                 text: { name: "Jeffrey" },
-                image: "/img/jeffrey.jpg",
+                image: treePath + "/img/jeffrey.jpg",
                 HTMLclass: htmlclass,
                 children: [
                     {
                         text: { name: "Kimhuy" },
-                        image: "/img/kimhuy.jpg",
+                        image: treePath + "/img/kimhuy.jpg",
                         HTMLclass: htmlclass
                     },
                     {
                         text: { name: "Alex" },
-                        image: "/img/alex.jpg",
+                        image: treePath + "/img/alex.jpg",
                         HTMLclass: htmlclass
                     },
                     {
                         text: { name: "Bryant" },
-                        image: "/img/bryant.jpg",
+                        image: treePath + "/img/bryant.jpg",
                         HTMLclass: htmlclass
                     }
                 ]
             },
             {
                 text: { name: "Jose" },
-                image: "/img/jose.jpg",
+                image: treePath + "/img/jose.jpg",
                 HTMLclass: htmlclass
             }
         ]

@@ -68,7 +68,7 @@ abbr,acronym { border:0; }
           <script src="../../vendor/jquery.mousewheel.js"></script>
           <script src="../../vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
           
-          <script src="alignTree.js"></script>
+          <script src="treeconfig.js"></script>
           
           <div class="chart" id="OrganiseChart-simple"> 
             
@@ -81,7 +81,9 @@ abbr,acronym { border:0; }
               <script src="lines/NINJA_LINE.js"></script>
               <script src="lines/SLEEPY_LINE.js"></script>
               <script src="lines/SMASHER_LINE.js"></script>
+              <script src="lines/VIRUS_LINE.js"></script>
               <script src="lines/WUJU_LINE.js"></script>
+              <script src="lines/WEENIE_LINE.js"></script>
               
               <script src="MentorTree.js"></script>
               

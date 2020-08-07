@@ -1,104 +1,104 @@
-// var file = "/page/treant/treant-js-master/examples/arm_example";
-var file = "";      // FIXME: Be sure to change this to the above path when using the actual website
+// var treePath = "/page/treant/treant-js-master/examples/arm_example";
+// var treePath = "";      // FIXME: Be sure to change this to the above path when using the actual website
 var htmlclass = "weenie-line";
 
 var WEENIE_LINE = [
     {
         text: { name: "Kenny" },
-        image: "/img/kenny.jpg",
+        image: treePath + "/img/kenny.jpg",
         HTMLclass: htmlclass,
         children: [
             {
                 text: { name: "Robin" },
-                image: "/img/robin.jpg",
+                image: treePath + "/img/robin.jpg",
                 HTMLclass: htmlclass,
                 children: [
                     {
                         text: { name: "Kathy" },
-                        image: "/img/kathy.jpg",
+                        image: treePath + "/img/kathy.jpg",
                         HTMLclass: htmlclass 
                     },
                     {
                         text: { name: "Xean" },
-                        image: "/img/xean.jpg",
+                        image: treePath + "/img/xean.jpg",
                         HTMLclass: htmlclass
                     }
                 ]
             },
             {
                 text: { name: "Phuong" },
-                image: "/img/phuong.jpg",
+                image: treePath + "/img/phuong.jpg",
                 HTMLclass: htmlclass
             },
             {
                 text: { name: "Mary" },
-                image: "/img/mary.jpg",
+                image: treePath + "/img/mary.jpg",
                 HTMLclass: htmlclass,
                 children: [
                     {
                         text: { name: "Trinh" },
-                        image: "/img/trinh.jpg",
+                        image: treePath + "/img/trinh.jpg",
                         HTMLclass: htmlclass,
                         children: [
                             {
                                 text: { name: "Hao" },
-                                image: "/img/hao.jpg",
+                                image: treePath + "/img/hao.jpg",
                                 HTMLclass: htmlclass
                             },
                             {
                                 text: { name: "Keith" },
-                                image: "/img/keith.jpg",
+                                image: treePath + "/img/keith.jpg",
                                 HTMLclass: htmlclass
                             },
                             {
                                 text: { name: "Amy" },
-                                image: "/img/amy.jpg",
+                                image: treePath + "/img/amy.jpg",
                                 HTMLclass: htmlclass
                             }
                         ]
                     },
                     {
                         text: { name: "Katie" },
-                        image: "/img/katie.jpg",
+                        image: treePath + "/img/katie.jpg",
                         HTMLclass: htmlclass
                     }
                 ]
             },
             {
                 text: { name: "Jared" },
-                image: "/img/jared.jpg",
+                image: treePath + "/img/jared.jpg",
                 HTMLclass: htmlclass
             },
             {
                 text: { name: "Ivy" },
-                image: "img/ivy.jpg",
+                image: treePath + "img/ivy.jpg",
                 HTMLclass: htmlclass,
                 children: [
                     {
                         text: { name: "Rachel" },
-                        image: "/img/rachel.jpg",
+                        image: treePath + "/img/rachel.jpg",
                         HTMLclass: htmlclass,
                         children: [
                             {
                                 text: { name: "Makayla" },
-                                image: "/img/makayla.jpg",
+                                image: treePath + "/img/makayla.jpg",
                                 HTMLclass: htmlclass
                             },
                             {
                                 text: { name: "Jenny" },
-                                image: "/img/jenny.jpg",
+                                image: treePath + "/img/jenny.jpg",
                                 HTMLclass: htmlclass
                             }
                         ]
                     },
                     {
                         text: { name: "Amber" },
-                        image: "/img/amber.jpg",
+                        image: treePath + "/img/amber.jpg",
                         HTMLclass: htmlclass,
                         children: [
                             {
                                 text: { name: "Vietvi" },
-                                image: "/img/vietvi.jpg",
+                                image: treePath + "/img/vietvi.jpg",
                                 HTMLclass: htmlclass
                             }
                         ]
