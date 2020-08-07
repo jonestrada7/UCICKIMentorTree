@@ -97,6 +97,20 @@ var MentorTree = {
                 HTMLclass: "smasher-line"
             },
             
+            {
+                text: { name: "VIRUS LINE" },
+                children: VIRUS_LINE,
+                collapsed: true,
+                HTMLclass: "virus-line"
+            },
+
+            {
+                text: { name: "WEENIE LINE" },
+                children: WEENIE_LINE,
+                collapsed: true,
+                HTMLclass: "weenie-line"
+            },
+
             {   
                 text: { name: "WUJU LINE" },
                 children: WUJU_LINE,
