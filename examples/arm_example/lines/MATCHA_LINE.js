@@ -5,69 +5,69 @@ var htmlclass = "matcha-line";
 var MATCHA_LINE = [
     {
         text: { name: "Omar" },
-        image: file + "/img/omar.jpg",
+        image: treePath + "/img/omar.jpg",
         HTMLclass: htmlclass,
         children: [
             {
                 text: { name: "Brittany" },
-                image: file + "/img/brittany.jpg",
+                image: treePath + "/img/brittany.jpg",
                 HTMLclass: htmlclass
             },
             {
                 text: { name: "Noah" },
-                image: file + "/img/ML1.jpg",
+                image: treePath + "/img/ML1.jpg",
                 HTMLclass: htmlclass,
                 children: [
                     {
                         text: { name: "Sydney" },
-                        image: file + "/img/ML2.jpg",
+                        image: treePath + "/img/ML2.jpg",
                         HTMLclass: htmlclass,
                         children: [
                             {
                                 text: { name: "Travis" },
-                                image: file + "/img/ML5.jpg",
+                                image: treePath + "/img/ML5.jpg",
                                 HTMLclass: htmlclass
                             },
                             {
                                 text: { name: "Elton" },
-                                image: file + "/img/ML6.jpg",
+                                image: treePath + "/img/ML6.jpg",
                                 HTMLclass: htmlclass
                             }
                         ]
                     },
                     {
                         text: { name: "Ruhiyah" },
-                        image: file + "/img/ML4.jpg",
+                        image: treePath + "/img/ML4.jpg",
                         HTMLclass: htmlclass
                     },
                     {
                         text: { name: "Kasia" },
-                        image: file + "/img/kasia.jpg",
+                        image: treePath + "/img/kasia.jpg",
                         HTMLclass: htmlclass
                     },
                     {
                         text: { name: "Kayla" },
-                        image: file + "/img/ML3.jpg",
+                        image: treePath + "/img/ML3.jpg",
                         HTMLclass: htmlclass,
                         children: [
                             {
                                 text: { name: "Justin" },
-                                image: file + "/img/ML7.jpg",
+                                image: treePath + "/img/ML7.jpg",
                                 HTMLclass: htmlclass
                             },
                             {
                                 text: { name: "Kit" },
-                                image: file + "/img/ML10.jpg",
+                                image: treePath + "/img/ML10.jpg",
                                 HTMLclass: htmlclass,
                                 children: [
                                     {
                                         text: { name: "Tin" },
-                                        image: file + "/img/ML8.jpg",
+                                        image: treePath + "/img/ML8.jpg",
                                         HTMLclass: htmlclass
                                     },
                                     {
                                         text: { name: "Nicole" },
-                                        image: file + "/img/ML9.jpg",
+                                        image: treePath + "/img/ML9.jpg",
                                         HTMLclass: htmlclass
                                     }
                                 ]
@@ -78,7 +78,7 @@ var MATCHA_LINE = [
             },
             {
                 text: { name: "Sophia" },
-                image: file + "/img/sophia_d.jpg",
+                image: treePath + "/img/sophia_d.jpg",
                 HTMLclass: htmlclass
             }
         ]  

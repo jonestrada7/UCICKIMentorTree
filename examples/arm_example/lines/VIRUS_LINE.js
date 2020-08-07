@@ -1,48 +1,48 @@
-// let file = "/page/treant/treant-js-master/examples/arm_example";
-var file = "";      // FIXME: Be sure to change this to the above path when using the actual website
+// let treePath = "/page/treant/treant-js-master/examples/arm_example";
+// var treePath = "";      // FIXME: Be sure to change this to the above path when using the actual website
 var htmlclass = "virus-line";
 
 var VIRUS_LINE = [
     {
         text: { name: "Steven" },
-        image: file + "/img/steven.jpg",
+        image: treePath + "/img/steven.jpg",
         HTMLclass: htmlclass,
         children: [
             {
                 text: { name: "Brandon" },
-                image: file + "/img/brandon_k.jpg",
+                image: treePath + "/img/brandon_k.jpg",
                 HTMLclass: htmlclass,
                 children: [
                     {
                         text: { name: "Audrey" },
-                        image: file + "/img/audrey.jpg",
+                        image: treePath + "/img/audrey.jpg",
                         HTMLclass: htmlclass
                     },
                     {
                         text: { name: "Rishi" },
-                        image: file + "/img/rishi.jpg",
+                        image: treePath + "/img/rishi.jpg",
                         HTMLclass: htmlclass
                     }
                 ]
             },
             {
                 text: { name: "???" },
-                image: file + "/img/???.jpg",
+                image: treePath + "/img/???.jpg",
                 HTMLclass: htmlclass
             },
             {
                 text: { name: "Tina" },
-                image: file + "/img/tina.jpg",
+                image: treePath + "/img/tina.jpg",
                 HTMLclass: htmlclass,
                 children: [
                     {
                         text: { name: "Seth" },
-                        image: file + "/img/seth.jpg",
+                        image: treePath + "/img/seth.jpg",
                         HTMLclass: htmlclass
                     },
                     {
                         text: { name: "Zitong" },
-                        image: file + "/img/zitong.jpg",
+                        image: treePath + "/img/zitong.jpg",
                         HTMLclass: htmlclass
                     }
                 ]

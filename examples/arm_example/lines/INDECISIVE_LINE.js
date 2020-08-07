@@ -5,27 +5,27 @@ var htmlclass = "indecisive-line";
 var INDECISIVE_LINE = [
     {
         text: { name: "???" },
-        image: file + "/img/???.jpg",
+        image: treePath + "/img/???.jpg",
         HTMLclass: htmlclass,
         children: [
             {
                 text: { name: "Alexis" },
-                image: file + "/img/alexis.jpg",
+                image: treePath + "/img/alexis.jpg",
                 HTMLclass: htmlclass,
                 children: [
                     {
                         text: {name: "Chaya"},
-                        image: file + "/img/chaya.jpg",
+                        image: treePath + "/img/chaya.jpg",
                         HTMLclass: htmlclass
                     },
                     {
                         text: {name: "Michelle"},
-                        image: file + "/img/michelle.jpg",
+                        image: treePath + "/img/michelle.jpg",
                         HTMLclass: htmlclass
                     },
                     {
                         text: {name: "Liane"},
-                        image: file + "/img/liane.jpg",
+                        image: treePath + "/img/liane.jpg",
                         HTMLclass: htmlclass
                     }
 
