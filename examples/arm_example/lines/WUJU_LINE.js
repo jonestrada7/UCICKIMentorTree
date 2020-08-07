@@ -5,7 +5,7 @@ var htmlclass = "wuju-line";
 var WUJU_LINE = [
     {
         text: { name: "Jonathan" },
-        image: file + "img/jonathan.jpg",
+        image: "img/jonathan.jpg",
         HTMLclass: htmlclass,
         children: [
             {
@@ -15,66 +15,66 @@ var WUJU_LINE = [
             },
             {
                 text: { name: "Matt"},
-                image: file + "img/matt.jpg",
+                image: "img/matt.jpg",
                 HTMLclass: htmlclass,
                 children: [
                     {
                         text: { name: "Lianne" },
-                        image: file + "img/lianne.jpg",
+                        image: "img/lianne.jpg",
                         HTMLclass: htmlclass,
                         children: [
                             {
                                 text: { name: "Jake" },
-                                image: file + "img/jake.jpg",
+                                image: "img/jake.jpg",
                                 HTMLclass: htmlclass,
                                 children: [
                                     {
                                         text: { name: "Megumi" },
-                                        image: file + "/img/meg.jpg",
+                                        image: "/img/meg.jpg",
                                         HTMLclass: htmlclass                                        
                                     },
                                     {
                                         text: { name: "Albert" },
-                                        image: file + "/img/albert.jpg",
+                                        image: "/img/albert.jpg",
                                         HTMLclass: htmlclass
                                     }
                                 ],
                             },
                             {
                                 text: { name: "Ash" },
-                                image: file + "img/ash.jpg",
+                                image: "img/ash.jpg",
                                 HTMLclass: htmlclass
                             },
                             {
                                 text: { name: "Kaitlyn" },
-                                image: file + "/img/kaitlyn.jpg",
+                                image: "/img/kaitlyn.jpg",
                                 HTMLclass: htmlclass
                             }
                         ]
                     },
                     {
                         text: { name: "Kyle" },
-                        image: file + "/img/kyle_l.jpg",
+                        image: "/img/kyle_l.jpg",
                         HTMLclass: htmlclass
                     },
                     {
                         text: { name: "Andre" },
-                        image: file + "img/andre.jpg",
+                        image: "img/andre.jpg",
                         HTMLclass: htmlclass,
                         children: [
                             {
                                 text: { name: "Ngan" },
-                                image: file + "img/ngan.jpg",
+                                image: "img/ngan.jpg",
                                 HTMLclass: htmlclass,
                                 children: [
                                     {
                                         text: { name: "Amanda" },
-                                        image: file + "img/amanda.jpg",
+                                        image: "img/amanda.jpg",
                                         HTMLclass: htmlclass
                                     },
                                     {
                                         text: { name: "Julia" },
-                                        image: file + "img/julia.jpg",
+                                        image: "img/julia.jpg",
                                         HTMLclass: htmlclass
                                     }
                                 ]
@@ -86,12 +86,12 @@ var WUJU_LINE = [
                                 children: [
                                     {
                                         text: { name: "Ana" },
-                                        image: file + "/img/ana.jpg",
+                                        image: "/img/ana.jpg",
                                         HTMLclass: htmlclass
                                     },
                                     {
                                         text: { name: "Sophia" },
-                                        image: file + "/img/sophia.jpg",
+                                        image: "/img/sophia.jpg",
                                         HTMLclass: htmlclass
                                     }
                                 ]

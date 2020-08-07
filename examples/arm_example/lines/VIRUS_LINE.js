@@ -5,44 +5,44 @@ var htmlclass = "virus-line";
 var VIRUS_LINE = [
     {
         text: { name: "Steven" },
-        image: file + "/img/steven.jpg",
+        image: "/img/steven.jpg",
         HTMLclass: htmlclass,
         children: [
             {
                 text: { name: "Brandon" },
-                image: file + "/img/brandon_k.jpg",
+                image: "/img/brandon_k.jpg",
                 HTMLclass: htmlclass,
                 children: [
                     {
                         text: { name: "Audrey" },
-                        image: file + "/img/audrey.jpg",
+                        image: "/img/audrey.jpg",
                         HTMLclass: htmlclass
                     },
                     {
                         text: { name: "Rishi" },
-                        image: file + "/img/rishi.jpg",
+                        image: "/img/rishi.jpg",
                         HTMLclass: htmlclass
                     }
                 ]
             },
             {
                 text: { name: "???" },
-                image: file + "/img/???.jpg",
+                image: "/img/???.jpg",
                 HTMLclass: htmlclass
             },
             {
                 text: { name: "Tina" },
-                image: file + "/img/tina.jpg",
+                image: "/img/tina.jpg",
                 HTMLclass: htmlclass,
                 children: [
                     {
                         text: { name: "Seth" },
-                        image: file + "/img/seth.jpg",
+                        image: "/img/seth.jpg",
                         HTMLclass: htmlclass
                     },
                     {
                         text: { name: "Zitong" },
-                        image: file + "/img/zitong.jpg",
+                        image: "/img/zitong.jpg",
                         HTMLclass: htmlclass
                     }
                 ]

@@ -5,12 +5,12 @@ var htmlclass = "f-boy-line";
 var F_BOY_LINE = [
     {
         text: { name: "Christian" },
-        image: file + "/img/christian.jpg",
+        image: "/img/christian.jpg",
         HTMLclass: htmlclass,
         children: [
             {
                 text: { name: "Caleb" },
-                image: file + "/img/caleb.jpg",
+                image: "/img/caleb.jpg",
                 HTMLclass: htmlclass
             }
         ]
