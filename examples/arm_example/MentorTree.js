@@ -18,7 +18,7 @@ var MentorTree = {
         connectors: {
             type: "curve",
             style: {
-                "stroke": "#5BD5EE",
+                "stroke": "#FF3100",
                 "stroke-width": 2,
                 "stroke-linecap": "butt",
                 "stroke-width": 5
@@ -65,7 +65,14 @@ var MentorTree = {
                 collapsed: true,
                 HTMLclass: "bottle-flip-line line-name"
             },
-            
+           
+            {
+                text: { name: "BOUJEE LINE"},
+                children: BOUJEE_LINE,
+                collapsed: true,
+                HTMLclass: "boujee-line line-name"
+            },    
+           
             {
                 text: { name: "CINEMA LINE" },
                 children: CINEMA_LINE,
