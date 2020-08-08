@@ -1,25 +1,22 @@
-// let file = "/page/treant/treant-js-master/examples/arm_example";
-let file = "";      // FIXME: Be sure to change this to the above path when using the actual website
-
 var MentorTree = {
     chart: {
         container: "#OrganiseChart-simple",
         
         rootOrientation: "NORTH",
 
-        nodeAlight: "TOP",
+        // nodeAlign: "TOP",
         
         levelSeparation: 50,
         
-        siblingSeparation: 100,
+        siblingSeparation: 70,
 
         animateOnInit: true,
         
-        scrollbar: "None",            
-
+        scrollbar: "native",
     
+        /* easing formulas: https://dmitrybaranovskiy.github.io/raphael/reference.html#Raphael.easing_formulas */
         connectors: {
-            type: "step",
+            type: "curve",
             style: {
                 "stroke": "#5BD5EE",
                 "stroke-width": 2,
@@ -29,135 +26,115 @@ var MentorTree = {
         },
         
         node: {
+            HTMLclass: "mentorline",
             collapsable: true
         },
 
         animation: {
-            nodeAnimation: "easeOutBounce",
+            nodeAnimation: "easeOutBack",        // easeOutBounce
             nodeSpeed: 700,
-            connectorsAnimation: "bounce",
+            connectorsAnimation: "backOut",         // bounce
             connectorsSpeed: 700
         }
     },
-    
-    // Sleepy Line
 
     nodeStructure: {
        text: { name: "UCI CKI LINES" },
-       children: [
-      
-            // SLEEPY LINE
-            
-            {	                
-                text: { name: "Sleepy line" },
-                children: [
-                    {
-                    text: { name: "Serjohn" },
-                    image: file + "/img/Diyen.jpg",
-                    children: [
-                        {
-                        text: { name: "Vince" },
-                        image: "https://i.imgur.com/vmL3WQA.jpg",
-                        children: [
-                            {
-                            text: { name: "Kyle" },
-                            image: "https://i.imgur.com/vmL3WQA.jpg",
-                            children: [
-                                {
-                                text: { name: "Diane" },
-                                image: "https://i.imgur.com/vmL3WQA.jpg",
-                                },
-                                {
-                                text: { name: "Natashza" },
-                                image: "https://i.imgur.com/vmL3WQA.jpg"
-                                },
-                                {
-                                text: { name: "Emily" },
-                                image: "https://i.imgur.com/vmL3WQA.jpg"
-                                }
-                            ]
-                            },
-                            {
-                            text: { name: "Rin" },
-                            image: "https://i.imgur.com/vmL3WQA.jpg"
-                            }
-                        ]
-                        }
-                    ]
-                    }
-                ]
+       connectors: {
+            type: "step",
+            style: {
+                "stroke": "#5BD5EE",
+                "stroke-width": 2,
+                "stroke-linecap": "butt",
+                "stroke-width": 5
+            }
+        },
+        HTMLclass: "line-header",
+        children: [
+            {
+
+                text: { name: "ABB/ABG LINE" },
+                children: ABBABG_LINE,
+                collapsed: true,
+                HTMLclass: "abbabg-line line-name"
             },
-            
-            // MATCHA LINE
-            
-	        {
-                text: { name: "MATCHA LINE" },
-                children: [
-                    {
-                        text: { name: "Noah" },
-                        image: file + "/img/ML1.jpg",
-                        children: [
-                            {
-                                text: { name: "Sydney" },
-                                image: file + "/img/ML2.jpg",
-                                children: [
-                                    {
-                                        text: { name: "Travis" },
-                                        image: file + "/img/ML5.jpg",
-                                    },
-                                    {
-                                        text: { name: "Elton" },
-                                        image: file + "/img/ML6.jpg",
-                                    }
-                                ]
-                            },
-                            {
-                                text: { name: "Ruhiyah" },
-                                image: file + "/img/ML4.jpg"
-                            },
-                            {
-                                text: { name: "Kayla" },
-                                image: file + "/img/ML3.jpg",
-                                children: [
-                                    {
-                                        text: { name: "Justin" },
-                                        image: file + "/img/ML7.jpg",
-                                    },
-                                    {
-                                        text: { name: "Kit" },
-                                        image: file + "/img/ML10.jpg",
-                                        children: [
-                                            {
-                                                text: { name: "Tin" },
-                                                image: file + "/img/ML8.jpg"
-                                            },
-                                            {
-                                                text: { name: "Nicole" },
-                                                image: file + "/img/ML9.jpg"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                            
-                        ]
-                    }
-                ]
+        
+            {
+                text: { name: "BOTTLE FLIP LINE"},
+                children: BOTTLE_FLIP_LINE,
+                collapsed: true,
+                HTMLclass: "bottle-flip-line line-name"
             },
-            
-            // WUJU LINE
             
             {
-                text: { name: "WUJU LINEE" },
-                children: [
-                    {
-                        text: { name: "Noah" },
-                        image: file + "/img/ML1.jpg",                            
-                    }
-                ]
+                text: { name: "CINEMA LINE" },
+                children: CINEMA_LINE,
+                collapsed: true,
+                HTMLclass: "cinema-line line-name"
+            },
+            
+            {
+                text: { name: "F BOY LINE" },
+                children: F_BOY_LINE,
+                collapsed: true,
+                HTMLclass: "f-boy-line line-name"
+            },
+
+            {
+                text: { name: "INDECISIVE LINE" },
+                children: INDECISIVE_LINE,
+                collapsed: true,
+                HTMLclass: "indecisive-line line-name"
+            },
+            
+            {
+                text: { name: "MATCHA LINE" },
+                children: MATCHA_LINE,
+                collapsed: true,
+                HTMLclass: "matcha-line line-name"
+            },
+            
+            {
+                text: { name: "NINJA LINE" },
+                children: NINJA_LINE,
+                collapsed: true,
+                HTMLclass: "ninja-line line-name"
+            },
+           
+            {         
+                text: { name: "SLEEPY LINE" },
+                children: SLEEPY_LINE,
+                collapsed: true,
+                HTMLclass: "sleepy-line line-name"
+            },
+            
+            {   
+                text: { name: "SMASHER LINE" },
+                children: SMASHER_LINE,
+                collapsed: true,
+                HTMLclass: "smasher-line line-name"
+            },
+            
+            {
+                text: { name: "VIRUS LINE" },
+                children: VIRUS_LINE,
+                collapsed: true,
+                HTMLclass: "virus-line line-name"
+            },
+
+            {
+                text: { name: "WEENIE LINE" },
+                children: WEENIE_LINE,
+                collapsed: true,
+                HTMLclass: "weenie-line line-name"
+            },
+
+            {
+                text: { name: "WUJU LINE" },
+                children: WUJU_LINE,
+                collapsed: true,
+                HTMLclass: "wuju-line line-name" 
             }
-            
-            
-       ]
+        ]        
     }
 };
