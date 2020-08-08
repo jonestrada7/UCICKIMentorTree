@@ -1,8 +1,9 @@
 .node-name { 
     margin:0; 
     padding:0; 
-    font-family: 'Comic Sans MS'; /* 'Raleway' */
+    font-family: 'Raleway'; /* 'Raleway' */
     text-align: center;
+    font-weight: bold;
 }
 
 .mentorline {

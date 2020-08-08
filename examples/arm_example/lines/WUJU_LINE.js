@@ -5,27 +5,27 @@ var htmlclass = "wuju-line";
 var WUJU_LINE = [
     {
         text: { name: "Jonathan" },
-        image: treePath + "img/jonathan.jpg",
+        image: treePath + "/img/jonathan.jpg",
         HTMLclass: htmlclass,
         children: [
             {
                 text: { name: "Alison" },
-                image: "img/alison.jpg",
+                image: treePath + "/img/alison.jpg",
                 HTMLclass: htmlclass                
             },
             {
                 text: { name: "Matt"},
-                image: treePath + "img/matt.jpg",
+                image: treePath + "/img/matt.jpg",
                 HTMLclass: htmlclass,
                 children: [
                     {
                         text: { name: "Lianne" },
-                        image: treePath + "img/lianne.jpg",
+                        image: treePath + "/img/lianne.jpg",
                         HTMLclass: htmlclass,
                         children: [
                             {
                                 text: { name: "Jake" },
-                                image: treePath + "img/jake.jpg",
+                                image: treePath + "/img/jake.jpg",
                                 HTMLclass: htmlclass,
                                 children: [
                                     {
@@ -42,7 +42,7 @@ var WUJU_LINE = [
                             },
                             {
                                 text: { name: "Ash" },
-                                image: treePath + "img/ash.jpg",
+                                image: treePath + "/img/ash.jpg",
                                 HTMLclass: htmlclass
                             },
                             {
@@ -59,29 +59,29 @@ var WUJU_LINE = [
                     },
                     {
                         text: { name: "Andre" },
-                        image: treePath + "img/andre.jpg",
+                        image: treePath + "/img/andre.jpg",
                         HTMLclass: htmlclass,
                         children: [
                             {
                                 text: { name: "Ngan" },
-                                image: treePath + "img/ngan.jpg",
+                                image: treePath + "/img/ngan.jpg",
                                 HTMLclass: htmlclass,
                                 children: [
                                     {
                                         text: { name: "Amanda" },
-                                        image: treePath + "img/amanda.jpg",
+                                        image: treePath + "/img/amanda.jpg",
                                         HTMLclass: htmlclass
                                     },
                                     {
                                         text: { name: "Julia" },
-                                        image: treePath + "img/julia.jpg",
+                                        image: treePath + "/img/julia.jpg",
                                         HTMLclass: htmlclass
                                     }
                                 ]
                             },
                             {
                                 text: { name: "Andy" },
-                                image: "img/andy.jpg",
+                                image: treePath + "/img/andy.jpg",
                                 HTMLclass: htmlclass,
                                 children: [
                                     {
@@ -102,7 +102,7 @@ var WUJU_LINE = [
             },
             {
                 text: { name: "Sophia" },
-                image: "img/sophia_h.jpg",
+                image: treePath + "/img/sophia_h.jpg",
                 HTMLclass: htmlclass
             }
         ]
