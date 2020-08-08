@@ -8,7 +8,7 @@ var MentorTree = {
         
         levelSeparation: 50,
         
-        siblingSeparation: 100,
+        siblingSeparation: 70,
 
         animateOnInit: true,
         
