@@ -54,47 +54,54 @@ $output = <<<OUTPUT
 		making connections, and giving and caring about others is really what leadership is all about!
 		<p>-Kyler Tagupa, Membership Development and Relations Chair (2014-2015)<p>
 
-            </div>
-	<div class="row-fluid">
-            <div class="well">
-              <div class="row-fluid">
-                  "The mentor-mentee program helped me branch out and grow in Circle K. As a first year, I found it easy to be active within my family, but I didn't have the courage to go out to large service events or club-wide events. The mentor-mentee
-                    program introduced me to members I hadn't met before and gave me the extra push I needed to become more involved in all aspects of Circle K. Having a mentor to support me has also encouraged me to take more initiative and leadership
-                    roles. Now that I have a mentee this year, I get to share my passion and dedication for Circle K with her and encourage her to become more involved."<p>-Joyce Wang (Past Mentee, Current Mentor)</p>
               </div>
             </div>
-            <div class="row-fluid">
-            <div class="well">
-              <div class="row-fluid">
-                  "I am really grateful for the Mentor Mentee Program because it gave me a chance to meet someone new in the club and an opportunity to share my experiences. When I got to meet my two amazing mentees, Joseph and Teresa, I was super happy
-                    because they reminded me of why I love Circle K so much. They never fail to make me laugh and I can't wait to go on more adventures with them!"
-                    <p>-Nancy Nguyen (Mentor)</p>
-              </div>
-              </div>
-
-              <div class="row-fluid">
-            <div class="well">
-              <div class="row-fluid">
-                  "The mentor and mentee system was a great way for me to find a more personal connection with someone outside my family. I had fun connecting with my mentor Stacey whether it was asking her about advice on life or going to food adventures
-                    with her."
-                    <p>-Kevin Carizon (Mentee)</p>
-                  "A mentor who is there for me even when she's always busy. One who inspires me to do better and work harder. The mentor who constantly reminds me about self-care; I am nothing more but grateful for my mentor Joyce."
-                    <p>-Jenny Truong (Mentee)</p>
-              </div>
-            </div>
-
-            <div class="row-fluid">
-            <div class="well">
-              <div class="row-fluid">
-                  "Since getting paired with my mentee, i've never felt more of that "big brother" role ever before in my life. My mentee has given me a chance to be more open minded about the chances that I take. It's true what they say: you learn more
-                    from your students, than your students who learn from you."
-                    <p>-Kristian Balmes (Mentor)</p>
-              </div>
           </div>
+          <div class="row-fluid">
+            <div class="well">
+              <div class="row-fluid">
+                "The mentor-mentee program helped me branch out and grow in Circle K. As a first year, I found it easy to be active within my family, but I didn't have the courage to go out to large service events or club-wide events. The mentor-mentee
+                      program introduced me to members I hadn't met before and gave me the extra push I needed to become more involved in all aspects of Circle K. Having a mentor to support me has also encouraged me to take more initiative and leadership
+                      roles. Now that I have a mentee this year, I get to share my passion and dedication for Circle K with her and encourage her to become more involved."<p>-Joyce Wang (Past Mentee, Current Mentor)</p>
+              </div>
+            </div>
+          </div>
+          <div class="row-fluid">
+            <div class="well">
+              <div class="row-fluid">
+                "I am really grateful for the Mentor Mentee Program because it gave me a chance to meet someone new in the club and an opportunity to share my experiences. When I got to meet my two amazing mentees, Joseph and Teresa, I was super happy
+                because they reminded me of why I love Circle K so much. They never fail to make me laugh and I can't wait to go on more adventures with them!"
+                <p>-Nancy Nguyen (Mentor)</p>
+              </div>
+            </div>
+          </div>
+          <div class="row-fluid">
+            <div class="well">
+              <div class="row-fluid">
+                "The mentor and mentee system was a great way for me to find a more personal connection with someone outside my family. I had fun connecting with my mentor Stacey whether it was asking her about advice on life or going to food adventures
+                        with her."
+                  <p>-Kevin Carizon (Mentee)</p>
+                "A mentor who is there for me even when she's always busy. One who inspires me to do better and work harder. The mentor who constantly reminds me about self-care; I am nothing more but grateful for my mentor Joyce."
+                  <p>-Jenny Truong (Mentee)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row-fluid">
+            <div class="well">
+              <div class="row-fluid">
+                "Since getting paired with my mentee, i've never felt more of that "big brother" role ever before in my life. My mentee has given me a chance to be more open minded about the chances that I take. It's true what they say: you learn more
+                from your students, than your students who learn from you."
+                <p>-Kristian Balmes (Mentor)</p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
-    </div>
+  </div>
+</div>
 
 OUTPUT;
 
