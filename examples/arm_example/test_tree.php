@@ -41,6 +41,7 @@ $output = <<<OUTPUT
           
             <script src="lines/ABBABG_LINE.js"></script>
             <script src="lines/BOTTLE_FLIP_LINE.js"></script>
+            <script src="lines/BOUJEE_LINE.js"></script>
             <script src="lines/CINEMA_LINE.js"></script>
             <script src="lines/F_BOY_LINE.js"></script>
             <script src="lines/INDECISIVE_LINE.js"></script>
