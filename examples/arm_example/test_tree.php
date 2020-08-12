@@ -72,9 +72,6 @@ $output = <<<OUTPUT
           
           </div>
         </div>
-      </div>
-    </div>
-  </div>
 
 <div class="row-fluid" style="background-color: #def3e6; margin-top: 20px;">
   <div class="span12">
