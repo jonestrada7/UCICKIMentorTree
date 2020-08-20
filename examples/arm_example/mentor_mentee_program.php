@@ -27,8 +27,8 @@ $output = <<<OUTPUT
   </div>
 </div>
 
-<link rel="stylesheet" href="../../Treant.css">
-<link rel="stylesheet" href="test.css">
+<link rel="stylesheet" href="mentors_src/Treant.css">
+<link rel="stylesheet" href="mentors_src/src/MentorTree.css">
 <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 
 <div class="row-fluid" >
@@ -38,34 +38,34 @@ $output = <<<OUTPUT
       <div style="padding:20px;">
         <div style="position: relative; padding-bottom: 0%; overflow: hidden; -webkit-overflow-scrolling:touch;" id="Q8P6MLLD9G">
     
-          <script src="../../vendor/raphael.js"></script>
-          <script src="../../Treant.js"></script>
+          <script src="mentors_src/vendor/raphael.js"></script>
+          <script src="mentors_src/Treant.js"></script>
           
-          <link href="../../vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" type="text/css"/>
-          <script src="../../vendor/jquery.min.js"></script>
-          <script src="../../vendor/jquery.easing.js"></script>
-          <script src="../../vendor/jquery.mousewheel.js"></script>
-          <script src="../../vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+          <link href="mentors_src/vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" type="text/css"/>
+          <script src="mentors_src/vendor/jquery.min.js"></script>
+          <script src="mentors_src/vendor/jquery.easing.js"></script>
+          <script src="mentors_src/vendor/jquery.mousewheel.js"></script>
+          <script src="mentors_src/vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
           
-          <script src="treeconfig.js"></script>
+          <script src="mentors_src/src/treeconfig.js"></script>
           <div class="chart" id="OrganiseChart-simple"> 
           
-            <script src="lines/ABBABG_LINE.js"></script>
-            <script src="lines/BOTTLE_FLIP_LINE.js"></script>
-            <script src="lines/BOUJEE_LINE.js"></script>
-            <script src="lines/CINEMA_LINE.js"></script>
-            <script src="lines/F_BOY_LINE.js"></script>
-            <script src="lines/HOOPS_LINE.js" ></script>
-            <script src="lines/INDECISIVE_LINE.js"></script>
-            <script src="lines/MATCHA_LINE.js"></script>
-            <script src="lines/NINJA_LINE.js"></script>
-            <script src="lines/SLEEPY_LINE.js"></script>
-            <script src="lines/SMASHER_LINE.js"></script>
-            <script src="lines/VIRUS_LINE.js"></script>
-            <script src="lines/WUJU_LINE.js"></script>
-            <script src="lines/WEENIE_LINE.js"></script>
+            <script src="mentors_src/src/lines/ABBABG_LINE.js"></script>
+            <script src="mentors_src/src/lines/BOTTLE_FLIP_LINE.js"></script>
+            <script src="mentors_src/src/lines/BOUJEE_LINE.js"></script>
+            <script src="mentors_src/src/lines/CINEMA_LINE.js"></script>
+            <script src="mentors_src/src/lines/F_BOY_LINE.js"></script>
+            <script src="mentors_src/src/lines/HOOPS_LINE.js" ></script>
+            <script src="mentors_src/src/lines/INDECISIVE_LINE.js"></script>
+            <script src="mentors_src/src/lines/MATCHA_LINE.js"></script>
+            <script src="mentors_src/src/lines/NINJA_LINE.js"></script>
+            <script src="mentors_src/src/lines/SLEEPY_LINE.js"></script>
+            <script src="mentors_src/src/lines/SMASHER_LINE.js"></script>
+            <script src="mentors_src/src/lines/VIRUS_LINE.js"></script>
+            <script src="mentors_src/src/lines/WUJU_LINE.js"></script>
+            <script src="mentors_src/src/lines/WEENIE_LINE.js"></script>
           
-            <script src="MentorTree.js"></script>
+            <script src="mentors_src/src/MentorTree.js"></script>
           
             <script>
               mentor_tree = new Treant( MentorTree );
