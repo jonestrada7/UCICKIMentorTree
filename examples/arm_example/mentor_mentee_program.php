@@ -55,6 +55,7 @@ $output = <<<OUTPUT
             <script src="lines/BOUJEE_LINE.js"></script>
             <script src="lines/CINEMA_LINE.js"></script>
             <script src="lines/F_BOY_LINE.js"></script>
+            <script src="lines/HOOPS_LINE.js" ></script>
             <script src="lines/INDECISIVE_LINE.js"></script>
             <script src="lines/MATCHA_LINE.js"></script>
             <script src="lines/NINJA_LINE.js"></script>
