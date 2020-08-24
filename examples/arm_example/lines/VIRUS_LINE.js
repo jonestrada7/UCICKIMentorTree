@@ -1,5 +1,3 @@
-// let treePath = "/page/treant/treant-js-master/examples/arm_example";
-// var treePath = "";      // FIXME: Be sure to change this to the above path when using the actual website
 var htmlclass = "virus-line";
 
 var VIRUS_LINE = [
@@ -43,6 +41,23 @@ var VIRUS_LINE = [
                     {
                         text: { name: "Zitong" },
                         image: treePath + "/img/zitong.jpg",
+                        HTMLclass: htmlclass
+                    }
+                ]
+            },
+            {
+                text: { name: "James" },
+                image: treePath + "/img/jamesmolamphy.jpg",
+                HTMLclass: htmlclass,
+                children: [
+                    {
+                        text: { name: "Kenneth Lorn Seng" },
+                        image: treePath + "/img/kennethlornseng.jpg",
+                        HTMLclass: htmlclass
+                    },
+                    {
+                        text: { name: "Terry" },
+                        image: treePath + "/img/terrynguyen.jpg",
                         HTMLclass: htmlclass
                     }
                 ]

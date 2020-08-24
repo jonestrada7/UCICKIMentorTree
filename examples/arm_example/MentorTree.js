@@ -18,7 +18,7 @@ var MentorTree = {
         connectors: {
             type: "curve",
             style: {
-                "stroke": "#000000",
+                "stroke": "#b8e2e3",
                 "stroke-width": 2,
                 "stroke-linecap": "butt",
                 "stroke-width": 5
@@ -43,7 +43,7 @@ var MentorTree = {
        connectors: {
             type: "step",
             style: {
-                "stroke": "#000000",
+                "stroke": "#68c4d9",
                 "stroke-width": 2,
                 "stroke-linecap": "butt",
                 "stroke-width": 5
@@ -51,14 +51,7 @@ var MentorTree = {
         },
         HTMLclass: "line-header",
         children: [
-            {
-
-                text: { name: "ABB/ABG LINE" },
-                children: ABBABG_LINE,
-                collapsed: true,
-                HTMLclass: "abbabg-line line-name"
-            },
-        
+            
             {
                 text: { name: "BOTTLE FLIP LINE"},
                 children: BOTTLE_FLIP_LINE,
