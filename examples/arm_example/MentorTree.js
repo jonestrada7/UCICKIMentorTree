@@ -18,7 +18,7 @@ var MentorTree = {
         connectors: {
             type: "curve",
             style: {
-                "stroke": "#FF3100",
+                "stroke": "#000000",
                 "stroke-width": 2,
                 "stroke-linecap": "butt",
                 "stroke-width": 5
@@ -43,7 +43,7 @@ var MentorTree = {
        connectors: {
             type: "step",
             style: {
-                "stroke": "#5BD5EE",
+                "stroke": "#000000",
                 "stroke-width": 2,
                 "stroke-linecap": "butt",
                 "stroke-width": 5

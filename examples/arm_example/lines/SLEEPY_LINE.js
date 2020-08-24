@@ -19,8 +19,8 @@ var SLEEPY_LINE = [
             HTMLclass: htmlclass,
             children: [
                 {
-                text: { name: "Diane" },
-                image: treePath + "/img/diane.jpg",
+                text: { name: "Emily" },
+                image: treePath + "/img/emily.jpg",
                 HTMLclass: htmlclass
                 },
                 {
@@ -29,8 +29,8 @@ var SLEEPY_LINE = [
                 HTMLclass: htmlclass
                 },
                 {
-                text: { name: "Emily" },
-                image: treePath + "/img/emily.jpg",
+                text: { name: "Diane" },
+                image: treePath + "/img/diane.jpg",
                 HTMLclass: htmlclass
                 }
             ]

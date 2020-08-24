@@ -38,7 +38,7 @@
     border: 10px solid #6ecfe0;
 }
 
-.boujee-flip-line {
+.boujee-line {
     border: 10px solid #000000;
 }
 
@@ -103,6 +103,6 @@ body { background: #fff; }
 
 .Treant .collapse-switch { width: 100%; height: 100%; border: none; }
 /* .Treant .node { background-color: #e0e6ff } */
-.Treant .node.collapsed { background-color: #c9f7c8; }
+.Treant .node.collapsed { background-color: #f0f4f8; }
 /* .Treant .node.collapsed:hover { background-color: #c9f7c8; transition: 0.5s; } */
 .Treant .node.collapsed .collapse-switch { background: none; }
