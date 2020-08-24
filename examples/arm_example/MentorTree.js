@@ -86,6 +86,13 @@ var MentorTree = {
                 collapsed: true,
                 HTMLclass: "f-boy-line line-name"
             },
+            
+            {
+                text: { name: "HOOPS/RWS LINE" },
+                children: HOOPS_LINE,
+                collapsed: true,
+                HTMLclass: "hoops-line line-name"
+            },
 
             {
                 text: { name: "INDECISIVE LINE" },
