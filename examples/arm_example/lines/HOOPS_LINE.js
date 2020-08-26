@@ -22,7 +22,7 @@ var HOOPS_LINE = [
                                 HTMLclass: htmlclass
                             },
                             {
-                                text: { name: "Jonathan"},
+                                text: { name: "Jon"},
                                 image: treePath + "/img/jonestrada.jpg",
                                 HTMLclass: htmlclass
                             }

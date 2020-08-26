@@ -1,5 +1,3 @@
-// var treePath = "/page/treant/treant-js-master/examples/arm_example";
-var treePath = "/page/treant/treant-js-master/examples/arm_example";
 var htmlclass = "smasher-line";
 
 var SMASHER_LINE = [
