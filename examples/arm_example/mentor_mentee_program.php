@@ -23,7 +23,6 @@ $output = <<<OUTPUT
       <p>The goal of the Mentor/Mentee program is to create an intimate relationship between one older member and a new member who might be interested in learning more about the club. Through this program there is an opportunity for new and old members
           to grow together as leaders. The Mentor/Mentee Program helps build a relationship between two individuals, and it acts as a bridge to create a better connection between the different generations of Circle K members by giving multiple opportunities
           to bond at social events and committee meetings.</p>
-          <p>For returning members interested in becoming a mentor this year, click <a href="https://goo.gl/forms/VV4xF2HvRtCl2sI43">here</a> to apply!</p>
   </div>
 </div>
 
@@ -72,6 +71,9 @@ $output = <<<OUTPUT
             </script>
           
           </div>
+        
+          <script src="../mentors_src/src/clickdrag.js" ></script>
+          
         </div>
 
 <div class="row-fluid" style="background-color: #def3e6; margin-top: 20px;">
