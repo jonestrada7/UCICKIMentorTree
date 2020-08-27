@@ -53,9 +53,9 @@ var MentorTree = {
         children: [
             {
                 text: { name: "A-F" },
-                children: A_F_LINES,
+                children: AF_LINES,
                 collapsed: true,
-                HTMLclass: "A-F-lines line-name"
+                HTMLclass: "a-f-lines line-name"
             },
 
             {
