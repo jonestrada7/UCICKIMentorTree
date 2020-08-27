@@ -114,6 +114,13 @@ var MentorTree = {
                 collapsed: true,
                 HTMLclass: "matcha-line line-name"
             },
+
+            {
+                text: { name: "MONKEY LINE" },
+                children: MONKEY_LINE,
+                collapsed: true,
+                HTMLclass: "monkey-line line-name"
+            },
             
             {
                 text: { name: "NINJA LINE" },
@@ -134,6 +141,13 @@ var MentorTree = {
                 children: SMASHER_LINE,
                 collapsed: true,
                 HTMLclass: "smasher-line line-name"
+            },
+
+            {
+                text: { name: "TSUM-TSUM LINE" },
+                children: TSUM-TSUM_LINE,
+                collapsed: true,
+                HTMLclass: "tsum-tsum-line line-name"
             },
             
             {
