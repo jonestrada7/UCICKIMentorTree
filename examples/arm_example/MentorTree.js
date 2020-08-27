@@ -145,7 +145,7 @@ var MentorTree = {
 
             {
                 text: { name: "TSUM-TSUM LINE" },
-                children: TSUM-TSUM_LINE,
+                children: TSUM_TSUM_LINE,
                 collapsed: true,
                 HTMLclass: "tsum-tsum-line line-name"
             },
