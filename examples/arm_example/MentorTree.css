@@ -57,6 +57,9 @@
 .indecisive-line {
 }
 
+.monkey-line {
+    border: 10px solid #613d1e
+}
 .matcha-line {
     border: 10px solid #33ff99;
 }
@@ -70,6 +73,10 @@
 
 .smasher-line {
     border: 10px solid #f53232
+}
+
+.tsum-tsum-line {
+    border: 10px solid #f0b6e8
 }
 
 .virus-line {
