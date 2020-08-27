@@ -1,6 +1,6 @@
 var htmlclass = "a-f-lines";
 
-var AF_LINES = [
+var A_F_LINES = [
     {
         text: { name: "BOTTLE FLIP LINE" },
         HTMLclass: htmlclass,

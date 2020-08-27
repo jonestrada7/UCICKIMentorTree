@@ -51,6 +51,12 @@ var MentorTree = {
         },
         HTMLclass: "line-header",
         children: [
+            {
+                text: { name: "LINES A-F" },
+                children: A_F_LINES,
+                collapsed: true,
+                HTMLclass: "a-f-lines line-name"
+            },
 
             {
 
@@ -110,13 +116,6 @@ var MentorTree = {
             },
             
             {
-                text: { name: "MONKEY LINE" },
-                children: MONKEY_LINE,
-                collapsed: true,
-                HTMLclass: "monkey-line line-name"
-            },
-
-            {
                 text: { name: "NINJA LINE" },
                 children: NINJA_LINE,
                 collapsed: true,
@@ -137,13 +136,6 @@ var MentorTree = {
                 HTMLclass: "smasher-line line-name"
             },
             
-            {   
-                text: { name: "TSUM TSUM LINE" },
-                children: TSUM_TSUM_LINE,
-                collapsed: true,
-                HTMLclass: "tsum-tsum-line line-name"
-            },
-
             {
                 text: { name: "VIRUS LINE" },
                 children: VIRUS_LINE,
