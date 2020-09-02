@@ -79,6 +79,13 @@ var MentorTree = {
                 collapsed: true,
                 HTMLclass: "cinema-line line-name"
             },
+
+            {
+                text: { name: "CLUTCH LINE" },
+                children: CLUTCH_LINE,
+                collapsed: true,
+                HTMLclass: "clutch-line line-name"
+            },
             
             {
                 text: { name: "F BOY LINE" },
@@ -99,6 +106,13 @@ var MentorTree = {
                 children: INDECISIVE_LINE,
                 collapsed: true,
                 HTMLclass: "indecisive-line line-name"
+            },
+
+            {
+                text: { name: "INU INU LINE" },
+                children: INU_INU_LINE,
+                collapsed: true,
+                HTMLclass: "inuinu-line line-name"
             },
             
             {
@@ -121,6 +135,13 @@ var MentorTree = {
                 collapsed: true,
                 HTMLclass: "ninja-line line-name"
             },
+
+            {
+                text: { name: "ORANGE LINE" },
+                children: ORANGE_LINE,
+                collapsed: true,
+                HTMLclass: "orange-line line-name"
+            },
            
             {         
                 text: { name: "SLEEPY LINE" },
@@ -134,6 +155,13 @@ var MentorTree = {
                 children: SMASHER_LINE,
                 collapsed: true,
                 HTMLclass: "smasher-line line-name"
+            },
+
+            {   
+                text: { name: "THICC BUN LINE" },
+                children: THICC_BUN_LINE,
+                collapsed: true,
+                HTMLclass: "thiccbun-line line-name"
             },
 
             {
