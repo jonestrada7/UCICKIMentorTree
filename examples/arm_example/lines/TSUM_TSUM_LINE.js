@@ -3,7 +3,7 @@ var htmlclass = "tsum-tsum-line";
 var TSUM_TSUM_LINE = [
     {
         text: { name: "Stacey" },
-        image: treePath + "/img/stacey.jpg",
+        image: treePath + "/img/stacey2.jpg",
         HTMLclass: htmlclass,
         children: [
             {
