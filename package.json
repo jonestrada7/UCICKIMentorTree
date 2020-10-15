@@ -29,7 +29,7 @@
   "homepage": "https://github.com/fperucic/treant-js#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.1",
     "jsdom": "^16.2.0",
     "morgan": "^1.9.1",
     "nodemon": "^2.0.2",
