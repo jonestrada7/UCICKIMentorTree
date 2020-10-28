@@ -123,6 +123,13 @@ var MentorTree = {
             },
 
             {
+                text: { name: "MOJO JOJO LINE" },
+                children: MOJO_JOJO_LINE,
+                collapsed: true,
+                HTMLclass: "mojo-jojo-line line-name"
+            },
+
+            {
                 text: { name: "MONKEY LINE" },
                 children: MONKEY_LINE,
                 collapsed: true,

@@ -89,7 +89,7 @@ var WUJU_LINE = [
                                     },
                                     {
                                         text: { name: "Sophia" },
-                                        image: treePath + "/img/sophia.jpg",
+                                        image: treePath + "/img/sophia_j.jpg",
                                         HTMLclass: htmlclass
                                     }
                                 ]
